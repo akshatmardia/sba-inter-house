@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 
 public class Connection {
     public static java.sql.Connection con;
-    public static String dbFile = "D:\\Athletics.accdb";
+    public static String dbFile = "src/MsAccessPro/Athletics.accdb";
     public static String dbUrl;
 
     public Connection() {
